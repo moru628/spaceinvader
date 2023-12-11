@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>space invader</title>
+  <link rel="stylesheet" href="game.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  
+</head>
+<body>
+<h1>Space Invaders</h1>
+<div class="score-container">
+  <div class="score">Score: 0</div>
+  <div class="lives">Lives: 3</div>
+</div>
+<div id="container">
+<div id="space" class="space-background">
+  <div class="imageGroup">
+    <img class="target-image" style=" top: 0px;
+    left: 128px;" src="alien.png">
+    <img class="target-image" style=" top: 0px;
+    left: 160px;" src="alien.png">
+    <img class="target-image" style=" top: 0px;
+    left: 192px;" src="alien.png">
+    <img class="target-image" style=" top: 0px;
+    left: 224px;" src="alien.png">
+    <img class="target-image" style=" top: 0px;
+    left: 256px;" src="alien.png">
+    <img class="target-image" style=" top: 0px;
+    left: 288px;" src="alien.png">
+    <img class="target-image" style=" top: 0px;
+    left: 320px;" src="alien.png">
+    <img class="target-image" style=" top: 0px;
+    left: 352px;" src="alien.png">
+
+    <img class="target-image" style=" top: 16px;
+    left: 128px;" src="alien.png">
+    <img class="target-image" style=" top: 16px;
+    left: 160px;" src="alien.png">
+    <img class="target-image" style=" top: 16px;
+    left: 192px;" src="alien.png">
+    <img class="target-image" style=" top: 16px;
+    left: 224px;" src="alien.png">
+    <img class="target-image" style=" top: 16px;
+    left: 256px;" src="alien.png">
+    <img class="target-image" style=" top: 16px;
+    left: 288px;" src="alien.png">
+    <img class="target-image" style=" top: 16px;
+    left: 320px;" src="alien.png">
+    <img class="target-image" style=" top: 16px;
+    left: 352px;" src="alien.png">
+
+    <img class="target-image" style=" top: 32px;
+    left: 128px;" src="alien.png">
+    <img class="target-image" style=" top: 32px;
+    left: 160px;" src="alien.png">
+    <img class="target-image" style=" top: 32px;
+    left: 192px;" src="alien.png">
+    <img class="target-image" style=" top: 32px;
+    left: 224px;" src="alien.png">
+    <img class="target-image" style=" top: 32px;
+    left: 256px;" src="alien.png">
+    <img class="target-image" style=" top: 32px;
+    left: 288px;" src="alien.png">
+    <img class="target-image" style=" top: 32px;
+    left: 320px;" src="alien.png">
+    <img class="target-image" style=" top: 32px;
+    left: 352px;" src="alien.png">    
+
+    <img class="target-image" style=" top: 48px;
+    left: 128px;" src="alien.png">
+    <img class="target-image" style=" top: 48px;
+    left: 160px;" src="alien.png">
+    <img class="target-image" style=" top: 48px;
+    left: 192px;" src="alien.png">
+    <img class="target-image" style=" top: 48px;
+    left: 224px;" src="alien.png">
+    <img class="target-image" style=" top: 48px;
+    left: 256px;" src="alien.png">
+    <img class="target-image" style=" top: 48px;
+    left: 288px;" src="alien.png">
+    <img class="target-image" style=" top: 48px;
+    left: 320px;" src="alien.png">
+    <img class="target-image" style=" top: 48px;
+    left: 352px;" src="alien.png">      
+
+    <img class="target-image" style=" top: 64px;
+    left: 128px;" src="alien.png">
+    <img class="target-image" style=" top: 64px;
+    left: 160px;" src="alien.png">
+    <img class="target-image" style=" top: 64px;
+    left: 192px;" src="alien.png">
+    <img class="target-image" style=" top: 64px;
+    left: 224px;" src="alien.png">
+    <img class="target-image" style=" top: 64px;
+    left: 256px;" src="alien.png">
+    <img class="target-image" style=" top: 64px;
+    left: 288px;" src="alien.png">
+    <img class="target-image" style=" top: 64px;
+    left: 320px;" src="alien.png">
+    <img class="target-image" style=" top: 64px;
+    left: 352px;" src="alien.png">     
+  </div>
+</div>
+</div>
+
+<script src="player.js"></script>
+<script src="player-bullet.js"></script>
+<script src="sound.js"></script>
+<script src="alien-bullet.js"></script>
+<script src="collision.js"></script>
+<script src="alien-move.js"></script>
+
+</body>
+</html>
